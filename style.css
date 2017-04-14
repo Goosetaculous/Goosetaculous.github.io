@@ -1,81 +1,155 @@
+/* Color the whole backgroound */
 body {
-    background-color: #777;
-    text-align: center;
-}
-* {
-    margin: auto;
+    background:url("assets/images/ep_naturalwhite.png");
+    width: 100%;
+    margin: 0px;
 }
 
-/* header */
+/* Top Header */
 header {
-    background-color: cornsilk;
-    margin: 10px;
+    background-color: #ffffff;
+    border-bottom: thin solid grey;
+    top:0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
 }
-
-/* nav */
+/* Name box */
+.title-name {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    float:left
+}
+/* Navigation */
 nav {
-    margin: 10px;
-}
-/* style the section and article */
-.wrapper-section {
-    width: 960px;
-    margin-bottom: 5px;
+    width: 200px;
+    padding:5px;
+    float:right;
+    color: grey;
 }
 
-/* section */
-section {
-    width:495px;
-    float: left;
-    margin-bottom: 15px;
-    padding: 5px;
-    background-color: #ebebeb;
+a{
+    text-decoration: none;
 }
 
-article {
-    margin-top: 20px;
-    background-color: #777;
-    padding: 10px 0px 10px 0px;
-    color: floralwhite;
+
+#links-text {
+    float:left;
 }
 
-/* Style the divs with class wrapper-article*/
-.wrapper-article {
-    margin: 10px;
-    margin-top: 20px;
-    padding:10px;
-    background-color: #ebebeb;
-}
-
-/* assign */
-aside {
-    width: 440px;
-    background-color: #ebebeb;
-    height: 220px;
-    float: right;
-    margin-bottom: 5px;
-    line-height: 90px;
-
-}
-
-/* footer */
-footer {
-    clear: both;
-    margin: 15px;
-}
-
-/* Sets the height and width */
-.set-height-width {
-    background-color: #ebebeb;
-    height: 100px;
-    width: 960px;
+.top-header {
     margin-left: auto;
     margin-right: auto;
-    line-height: 90px;
+    width: 960px;
 }
 
-/* Style the p tags*/
-p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777777;
+
+/* Styling the main content */
+
+
+.wrapper-content {
+    width: 960px;
+    margin-top: 100px; /* push from the top */
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+/* Style the section*/
+section {
+    background-color: #ffffff;
+    color: teal;
+    padding: 25px;
+    font-family: Arial;
+    font-size: larger;
+    width: 640px;
+    float: left;
+}
+.content-text {
+    color: grey;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+/* style the image */
+img {
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Style the side bar */
+aside {
+    text-align: center;
+    float: right;
+    padding:10px;
+    background-color: #ffffff;
+    color: teal;
+}
+/* Add more spacing for all paragraphs*/
+p{
+    line-height: 150%;
+}
+
+/* Style the footer */
+footer {
+    background-color: dimgrey;
+    border-top: thick solid teal;
+    bottom: 0px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+/* Input */
+input, textarea {
+    width: 100%;
+    line-height: 2em;
+}
+/* Style the button */
+button {
+    background-color: #4aaaa5; /* Teal */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    height: 250px;
+    width: 300px;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add background images to each box */
+.box1 {
+    background:url("assets/images/html.png");
+}
+.box2 {
+    background:url("assets/images/html.png");}
+.box3 {
+    background:url("assets/images/css.png");}
+.box4 {
+    background:url("assets/images/node.png");}
+.box5 {
+    background:url("assets/images/mongo.png");}
+
+/* Style the inner div for each box */
+.box-content {
+    background-color: teal;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
