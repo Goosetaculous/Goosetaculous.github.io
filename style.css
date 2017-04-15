@@ -3,6 +3,7 @@ body {
     background:url("assets/images/ep_naturalwhite.png");
     width: 100%;
     margin: 0px;
+    height: 700px;
 }
 
 /* Top Header */
@@ -86,6 +87,8 @@ aside {
     padding:10px;
     background-color: #ffffff;
     color: teal;
+    position: fixed;
+    right: 175px;
 }
 /* Add more spacing for all paragraphs*/
 p{
